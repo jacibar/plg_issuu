@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>Isuu Plugin</name>
+		<description>Content and editors-xtd plugins to embed Issuu documents</description>
+		<element>pkg_issuu</element>
+		<type>package</type>
+		<folder></folder>
+		<client>0</client>
+		<version>0.5.0</version>
+		<infourl title="Issuu embed plugins for Joomla">https://github.com/JoomlaEmpresaSL/plg_issuu/releases/tag/0.5.0</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/JoomlaEmpresaSL/plg_issuu/releases/download/0.5.0/pkg_issuu-0.5.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>José A. Cidre Bardelás</maintainer>
+		<maintainerurl>http://www.cidrebardelas.com/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="3.[6789]" />
+	</update>
+</updates> 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="package" method="upgrade">
+	<name>Issuu embed plugins for Joomla Package</name>
+	<author>José A. Cidre Bardelás</author>
+	<authorEmail>informatico@cidrebardelas.com</authorEmail>
+	<packagename>issuu</packagename>
+	<url>http://www.cidrebardelas.com</url>
+	<packager>José A. Cidre Bardelás</packager>
+	<packagerurl>http://www.cidrebardelas.com</packagerurl>
+	<creationDate>2018-04-30</creationDate>
+	<copyright>(C) 2018 José A. Cidre Bardelás. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>0.5.0</version>
+	<description>Plugins to easily embed Issuu documents in your Joomla</description>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Issuu embed plugins for Joomla Package">https://raw.githubusercontent.com/jacibar/plg_issuu/master/update.xml</server>
+	</updateservers>
+
+	<!-- List of extensions to install -->
+	<files>
+		<!-- Plugin -->
+		<file type="plugin" group="content" id="issuu">plg_content_issuu-0.5.0.zip</file>
+
+		<!-- Plugin -->
+		<file type="plugin" group="editors-xtd" id="issuu">plg_editors-xtd_issuu-0.5.0.zip</file>
+	</files>
+
+	<!-- Installation script -->
+	<scriptfile>script.issuu.php</scriptfile>
+</extension>
